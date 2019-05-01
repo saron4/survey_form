@@ -3,11 +3,12 @@
 }
 #survey-form{
     display: flex;
-   
     border: 1px solid red;
 }
 .form-left{
     width: 50%;
+    margin: 5px;
+    padding: 10px;
     display: flex;
     border: 1px solid green;
 }
@@ -15,7 +16,10 @@
     width: 50%;
     border: 1px solid black;
 }
-
+.a,.b{
+ 
+    flex-direction: column;
+}
 
 
 

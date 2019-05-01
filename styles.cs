@@ -7,7 +7,7 @@
  display: flex;
  
 
-}
+
 .form-left{
   width: 50%;
   display: flex;

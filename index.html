@@ -12,12 +12,100 @@
         <form id="survey-form">
             <div class="form-left">
                 <!--for day visited-->
-                <div class="a"><label id="label" for="day visited"></label> Day Visited:</label></div>
-                <div class="b"><input type="date" name="date " id="date"></div>
+                <div class="rowTab">
+                    <div class="labels">
+                      <label id="name-label" for="Day visited">Day visited: </label>
+                    </div>
+                    <div class="rightTab">
+                      <input name="date" id="date" >
+                    </div>
+                </div>
 
-                 <!--for dine in or takeout-->
-                 <div class="a"><label id="label" for="dayvisited and takeout">Dine in|Take out</label></div>
-                 <div class="b" ><input type="text"></div>
+                <!--for Dine in or Take out-->
+
+                <div class="rowTab">
+                    <div class="labels">
+                      <label for="userRating">Dine in |Take out</label>
+                    </div>
+                    <div class="rightTab">
+                      <ul style="list-style: none;">
+                        <li class="radio"><label><input name="radio-buttons" value="1"  type="radio" class="userRatings" >Dine in</label></li>
+                        <li class="radio"><label><input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label>Take out</li>
+                        
+                      </ul>
+                    </div>
+                </div>
+
+                <!--food quality-->
+                <div class="rowTab">
+                    <div class="labels">
+                      <label for="userRating">Food quality</label>
+                    </div>
+                    <div class="rightTab">
+                      <ul style="list-style: none;">
+                        <li class="radio"><label><input name="radio-buttons" value="1"  type="radio" class="userRatings" >Excellent</label></li>
+                        <li class="radio"><label><input name="radio-buttons" value="1"  type="radio" class="userRatings" >Good</label></li>
+
+                        <li class="radio"><label><input name="radio-buttons" value="1"  type="radio" class="userRatings" >Average</label></li>
+
+                        <li class="radio"><label><input name="radio-buttons" value="1"  type="radio" class="userRatings" >Dissatissfied</label></li>
+                        
+                      </ul>
+                    </div>
+                </div>
+                <!--overall service quality-->
+
+                <div class="rowTab">
+                    <div class="labels">
+                      <label for="userRating">Overall Srvice quality</label>
+                    </div>
+                    <div class="rightTab">
+                      <ul style="list-style: none;">
+                        <li class="radio"><label><input name="radio-buttons" value="1"  type="radio" class="userRatings" >Excellent</label></li>
+                        <li class="radio"><label><input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label>Good</li>
+
+                        class="radio"><label><input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label>Aerage</li>
+
+                        class="radio"><label><input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label>Dissatissfied</li>
+                        
+                      </ul>
+                    </div>
+                </div>
+
+                <!--Cleaniness-->
+                <div class="rowTab">
+                    <div class="labels">
+                      <label for="userRating">Order Accuracy</label>
+                    </div>
+                    <div class="rightTab">
+                      <ul style="list-style: none;">
+                        <li class="radio"><label><input name="radio-buttons" value="1"  type="radio" class="userRatings" >Excellent</label></li>
+                        <li class="radio"><label><input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label>Good</li>
+
+                        <li class="radio"><label><input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label>Average</li>
+
+                        <li class="radio"><label><input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label>Dissatissfied</li>
+                        
+                      </ul>
+                    </div>
+                </div>
+                <!--Order accuracy-->
+                <div class="rowTab">
+                    <div class="labels">
+                      <label for="userRating">Order Accuracy</label>
+                    </div>
+                    <div class="rightTab">
+                      <ul style="list-style: none;">
+                        <li class="radio"><label><input name="radio-buttons" value="1"  type="radio" class="userRatings" >Excellent</label></li>
+                        <li class="radio"><label><input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label>Good</li>
+
+                        <li class="radio"><label><input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label>Average</li>
+
+                        <li class="radio"><label><input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label>Dissatissfied</li>
+                        
+                      </ul>
+                    </div>
+                </div>
 
                 
             </div>
